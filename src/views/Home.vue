@@ -2,7 +2,16 @@
   <div class="container py-4">
     <div class="row justify-content-center">
       <div class="col-lg-8">
-        <h1 class="text-center mb-4">待辦事項清單</h1>
+        <!-- Hero Image -->
+        <div class="hero-section text-center mb-4">
+          <img 
+            src="https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=800&h=300&fit=crop" 
+            alt="待辦事項管理" 
+            class="hero-image rounded shadow-lg mb-3"
+          />
+          <h1 class="display-4 fw-bold text-purple mb-2">✨ 待辦事項清單 ✨</h1>
+          <p class="lead text-muted">讓您的任務管理更加優雅高效</p>
+        </div>
         
         <!-- Add Todo Form -->
         <div class="card shadow-sm mb-4">
@@ -15,7 +24,7 @@
                 placeholder="輸入新的待辦事項..."
                 required
               />
-              <button type="submit" class="btn btn-primary px-4">
+              <button type="submit" class="btn btn-purple px-4">
                 <i class="bi bi-plus-circle"></i> 新增
               </button>
             </form>
@@ -73,7 +82,7 @@
                 <template v-if="editingId !== todo.id">
                   <button
                     @click="startEdit(todo)"
-                    class="btn btn-sm btn-outline-primary"
+                    class="btn btn-sm btn-outline-purple"
                     title="編輯"
                   >
                     <i class="bi bi-pencil"></i>
@@ -186,18 +195,77 @@ function formatDate(dateString) {
 </script>
 
 <style scoped>
-.list-group-item {
-  border-left: 4px solid #0d6efd;
+.hero-section {
+  animation: fadeIn 0.8s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.hero-image {
+  width: 100%;
+  max-height: 300px;
+  object-fit: cover;
+  border: 4px solid #9333ea;
+}
+
+.text-purple {
+  color: #7c3aed;
+}
+
+.btn-purple {
+  background: linear-gradient(135deg, #7c3aed 0%, #9333ea 100%);
+  border: none;
+  color: white;
+  font-weight: 600;
   transition: all 0.3s ease;
 }
 
+.btn-purple:hover {
+  background: linear-gradient(135deg, #6d28d9 0%, #7e22ce 100%);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(124, 58, 237, 0.4);
+}
+
+.btn-outline-purple {
+  border: 1px solid #9333ea;
+  color: #9333ea;
+  transition: all 0.3s ease;
+}
+
+.btn-outline-purple:hover {
+  background-color: #9333ea;
+  color: white;
+  transform: translateY(-1px);
+}
+
+.list-group-item {
+  border-left: 4px solid #9333ea;
+  transition: all 0.3s ease;
+  background-color: rgba(255, 255, 255, 0.95);
+}
+
 .list-group-item:hover {
-  background-color: #f8f9fa;
-  border-left-color: #0a58ca;
+  background-color: #faf5ff;
+  border-left-color: #7c3aed;
+  box-shadow: 0 2px 8px rgba(124, 58, 237, 0.15);
 }
 
 .form-check-input:checked {
-  background-color: #198754;
-  border-color: #198754;
+  background-color: #9333ea;
+  border-color: #9333ea;
+}
+
+.card {
+  border: 2px solid #e9d5ff;
+  background-color: rgba(255, 255, 255, 0.95);
 }
 </style>

@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <!-- Navigation Bar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow-sm">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-purple shadow-sm">
       <div class="container">
         <router-link to="/" class="navbar-brand">
           <i class="bi bi-check2-square"></i> MyVueTodo
@@ -57,8 +57,12 @@
 
 .main-content {
   flex: 1;
-  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  background: linear-gradient(135deg, #f3e7ff 0%, #e3d5ff 50%, #d4bbff 100%);
   min-height: calc(100vh - 120px);
+}
+
+.bg-purple {
+  background: linear-gradient(135deg, #7c3aed 0%, #9333ea 100%) !important;
 }
 
 .navbar-brand {
