@@ -57,12 +57,12 @@
 
 .main-content {
   flex: 1;
-  background: linear-gradient(135deg, #f3e7ff 0%, #e3d5ff 50%, #d4bbff 100%);
+  background: linear-gradient(135deg, #fffbeb 0%, #fef3c7 50%, #fde68a 100%);
   min-height: calc(100vh - 120px);
 }
 
 .bg-purple {
-  background: linear-gradient(135deg, #7c3aed 0%, #9333ea 100%) !important;
+  background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%) !important;
 }
 
 .navbar-brand {
