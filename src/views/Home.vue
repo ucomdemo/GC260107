@@ -5,11 +5,11 @@
         <!-- Hero Image -->
         <div class="hero-section text-center mb-4">
           <img 
-            src="https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=800&h=300&fit=crop" 
-            alt="待辦事項管理" 
+            src="https://images.unsplash.com/photo-1604762512591-5e7127c27838?w=800&h=300&fit=crop" 
+            alt="菊花 - 待辦事項管理" 
             class="hero-image rounded shadow-lg mb-3"
           />
-          <h1 class="display-4 fw-bold text-purple mb-2">✨ 待辦事項清單 ✨</h1>
+          <h1 class="display-4 fw-bold text-chrysanthemum mb-2">🌼 待辦事項清單 🌼</h1>
           <p class="lead text-muted">讓您的任務管理更加優雅高效</p>
         </div>
         
@@ -24,7 +24,7 @@
                 placeholder="輸入新的待辦事項..."
                 required
               />
-              <button type="submit" class="btn btn-purple px-4">
+              <button type="submit" class="btn btn-chrysanthemum px-4">
                 <i class="bi bi-plus-circle"></i> 新增
               </button>
             </form>
@@ -82,7 +82,7 @@
                 <template v-if="editingId !== todo.id">
                   <button
                     @click="startEdit(todo)"
-                    class="btn btn-sm btn-outline-purple"
+                    class="btn btn-sm btn-outline-chrysanthemum"
                     title="編輯"
                   >
                     <i class="bi bi-pencil"></i>
@@ -214,58 +214,58 @@ function formatDate(dateString) {
   width: 100%;
   max-height: 300px;
   object-fit: cover;
-  border: 4px solid #9333ea;
+  border: 4px solid #d97706;
 }
 
-.text-purple {
-  color: #7c3aed;
+.text-chrysanthemum {
+  color: #d97706;
 }
 
-.btn-purple {
-  background: linear-gradient(135deg, #7c3aed 0%, #9333ea 100%);
+.btn-chrysanthemum {
+  background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
   border: none;
   color: white;
   font-weight: 600;
   transition: all 0.3s ease;
 }
 
-.btn-purple:hover {
-  background: linear-gradient(135deg, #6d28d9 0%, #7e22ce 100%);
+.btn-chrysanthemum:hover {
+  background: linear-gradient(135deg, #d97706 0%, #b45309 100%);
   transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(124, 58, 237, 0.4);
+  box-shadow: 0 4px 12px rgba(217, 119, 6, 0.4);
 }
 
-.btn-outline-purple {
-  border: 1px solid #9333ea;
-  color: #9333ea;
+.btn-outline-chrysanthemum {
+  border: 1px solid #d97706;
+  color: #d97706;
   transition: all 0.3s ease;
 }
 
-.btn-outline-purple:hover {
-  background-color: #9333ea;
+.btn-outline-chrysanthemum:hover {
+  background-color: #d97706;
   color: white;
   transform: translateY(-1px);
 }
 
 .list-group-item {
-  border-left: 4px solid #9333ea;
+  border-left: 4px solid #d97706;
   transition: all 0.3s ease;
   background-color: rgba(255, 255, 255, 0.95);
 }
 
 .list-group-item:hover {
-  background-color: #faf5ff;
-  border-left-color: #7c3aed;
-  box-shadow: 0 2px 8px rgba(124, 58, 237, 0.15);
+  background-color: #fffbeb;
+  border-left-color: #f59e0b;
+  box-shadow: 0 2px 8px rgba(217, 119, 6, 0.15);
 }
 
 .form-check-input:checked {
-  background-color: #9333ea;
-  border-color: #9333ea;
+  background-color: #d97706;
+  border-color: #d97706;
 }
 
 .card {
-  border: 2px solid #e9d5ff;
+  border: 2px solid #fde68a;
   background-color: rgba(255, 255, 255, 0.95);
 }
 </style>
