@@ -64,7 +64,7 @@
                   class="form-control"
                   @keyup.enter="handleUpdateTodo(todo.id)"
                   @keyup.esc="cancelEdit"
-                  :ref="el => { if (el) editInput = el }"
+                  :ref="el => { if (el && editingId === todo.id) editInputRef = el }"
                 />
               </div>
 
@@ -128,7 +128,7 @@ const todoStore = useTodoStore()
 const newTodoText = ref('')
 const editingId = ref(null)
 const editText = ref('')
-let editInput = null
+const editInputRef = ref(null)
 
 const completedCount = computed(() => {
   return todoStore.todos.filter(todo => todo.completed).length
@@ -155,8 +155,8 @@ function startEdit(todo) {
   editingId.value = todo.id
   editText.value = todo.text
   nextTick(() => {
-    if (editInput) {
-      editInput.focus()
+    if (editInputRef.value) {
+      editInputRef.value.focus()
     }
   })
 }
