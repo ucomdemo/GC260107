@@ -5,7 +5,7 @@
         <!-- Hero Image -->
         <div class="hero-section text-center mb-4">
           <img 
-            src="https://images.unsplash.com/photo-1604762512591-5e7127c27838?w=800&h=300&fit=crop" 
+            src="/chrysanthemum-hero.svg" 
             alt="菊花 - 待辦事項管理" 
             class="hero-image rounded shadow-lg mb-3"
           />

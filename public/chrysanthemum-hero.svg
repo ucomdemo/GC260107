@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300">
+  <!-- Background gradient -->
+  <defs>
+    <linearGradient id="bg-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fef3c7;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#fde68a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f59e0b;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="flower-gradient" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#fef3c7;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#fbbf24;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f59e0b;stop-opacity:1" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="300" fill="url(#bg-gradient)"/>
+  
+  <!-- Left Chrysanthemum -->
+  <g transform="translate(150, 150)">
+    <!-- Petals -->
+    <g>
+      <ellipse cx="0" cy="-35" rx="8" ry="30" fill="#f59e0b" transform="rotate(0)"/>
+      <ellipse cx="0" cy="-35" rx="8" ry="30" fill="#f59e0b" transform="rotate(22.5)"/>
+      <ellipse cx="0" cy="-35" rx="8" ry="30" fill="#fbbf24" transform="rotate(45)"/>
+      <ellipse cx="0" cy="-35" rx="8" ry="30" fill="#fbbf24" transform="rotate(67.5)"/>
+      <ellipse cx="0" cy="-35" rx="8" ry="30" fill="#f59e0b" transform="rotate(90)"/>
+      <ellipse cx="0" cy="-35" rx="8" ry="30" fill="#f59e0b" transform="rotate(112.5)"/>
+      <ellipse cx="0" cy="-35" rx="8" ry="30" fill="#fbbf24" transform="rotate(135)"/>
+      <ellipse cx="0" cy="-35" rx="8" ry="30" fill="#fbbf24" transform="rotate(157.5)"/>
+      <ellipse cx="0" cy="-35" rx="8" ry="30" fill="#f59e0b" transform="rotate(180)"/>
+      <ellipse cx="0" cy="-35" rx="8" ry="30" fill="#f59e0b" transform="rotate(202.5)"/>
+      <ellipse cx="0" cy="-35" rx="8" ry="30" fill="#fbbf24" transform="rotate(225)"/>
+      <ellipse cx="0" cy="-35" rx="8" ry="30" fill="#fbbf24" transform="rotate(247.5)"/>
+      <ellipse cx="0" cy="-35" rx="8" ry="30" fill="#f59e0b" transform="rotate(270)"/>
+      <ellipse cx="0" cy="-35" rx="8" ry="30" fill="#f59e0b" transform="rotate(292.5)"/>
+      <ellipse cx="0" cy="-35" rx="8" ry="30" fill="#fbbf24" transform="rotate(315)"/>
+      <ellipse cx="0" cy="-35" rx="8" ry="30" fill="#fbbf24" transform="rotate(337.5)"/>
+    </g>
+    <!-- Center -->
+    <circle cx="0" cy="0" r="15" fill="#d97706"/>
+    <circle cx="0" cy="0" r="12" fill="#b45309"/>
+    <circle cx="0" cy="0" r="8" fill="#92400e"/>
+  </g>
+  
+  <!-- Center Chrysanthemum (larger) -->
+  <g transform="translate(400, 150)">
+    <!-- Petals -->
+    <g>
+      <ellipse cx="0" cy="-45" rx="10" ry="38" fill="#fbbf24" transform="rotate(0)"/>
+      <ellipse cx="0" cy="-45" rx="10" ry="38" fill="#fbbf24" transform="rotate(18)"/>
+      <ellipse cx="0" cy="-45" rx="10" ry="38" fill="#f59e0b" transform="rotate(36)"/>
+      <ellipse cx="0" cy="-45" rx="10" ry="38" fill="#f59e0b" transform="rotate(54)"/>
+      <ellipse cx="0" cy="-45" rx="10" ry="38" fill="#fbbf24" transform="rotate(72)"/>
+      <ellipse cx="0" cy="-45" rx="10" ry="38" fill="#fbbf24" transform="rotate(90)"/>
+      <ellipse cx="0" cy="-45" rx="10" ry="38" fill="#f59e0b" transform="rotate(108)"/>
+      <ellipse cx="0" cy="-45" rx="10" ry="38" fill="#f59e0b" transform="rotate(126)"/>
+      <ellipse cx="0" cy="-45" rx="10" ry="38" fill="#fbbf24" transform="rotate(144)"/>
+      <ellipse cx="0" cy="-45" rx="10" ry="38" fill="#fbbf24" transform="rotate(162)"/>
+      <ellipse cx="0" cy="-45" rx="10" ry="38" fill="#f59e0b" transform="rotate(180)"/>
+      <ellipse cx="0" cy="-45" rx="10" ry="38" fill="#f59e0b" transform="rotate(198)"/>
+      <ellipse cx="0" cy="-45" rx="10" ry="38" fill="#fbbf24" transform="rotate(216)"/>
+      <ellipse cx="0" cy="-45" rx="10" ry="38" fill="#fbbf24" transform="rotate(234)"/>
+      <ellipse cx="0" cy="-45" rx="10" ry="38" fill="#f59e0b" transform="rotate(252)"/>
+      <ellipse cx="0" cy="-45" rx="10" ry="38" fill="#f59e0b" transform="rotate(270)"/>
+      <ellipse cx="0" cy="-45" rx="10" ry="38" fill="#fbbf24" transform="rotate(288)"/>
+      <ellipse cx="0" cy="-45" rx="10" ry="38" fill="#fbbf24" transform="rotate(306)"/>
+      <ellipse cx="0" cy="-45" rx="10" ry="38" fill="#f59e0b" transform="rotate(324)"/>
+      <ellipse cx="0" cy="-45" rx="10" ry="38" fill="#f59e0b" transform="rotate(342)"/>
+    </g>
+    <!-- Center -->
+    <circle cx="0" cy="0" r="20" fill="#d97706"/>
+    <circle cx="0" cy="0" r="16" fill="#b45309"/>
+    <circle cx="0" cy="0" r="11" fill="#92400e"/>
+  </g>
+  
+  <!-- Right Chrysanthemum -->
+  <g transform="translate(650, 150)">
+    <!-- Petals -->
+    <g>
+      <ellipse cx="0" cy="-35" rx="8" ry="30" fill="#fbbf24" transform="rotate(0)"/>
+      <ellipse cx="0" cy="-35" rx="8" ry="30" fill="#fbbf24" transform="rotate(22.5)"/>
+      <ellipse cx="0" cy="-35" rx="8" ry="30" fill="#f59e0b" transform="rotate(45)"/>
+      <ellipse cx="0" cy="-35" rx="8" ry="30" fill="#f59e0b" transform="rotate(67.5)"/>
+      <ellipse cx="0" cy="-35" rx="8" ry="30" fill="#fbbf24" transform="rotate(90)"/>
+      <ellipse cx="0" cy="-35" rx="8" ry="30" fill="#fbbf24" transform="rotate(112.5)"/>
+      <ellipse cx="0" cy="-35" rx="8" ry="30" fill="#f59e0b" transform="rotate(135)"/>
+      <ellipse cx="0" cy="-35" rx="8" ry="30" fill="#f59e0b" transform="rotate(157.5)"/>
+      <ellipse cx="0" cy="-35" rx="8" ry="30" fill="#fbbf24" transform="rotate(180)"/>
+      <ellipse cx="0" cy="-35" rx="8" ry="30" fill="#fbbf24" transform="rotate(202.5)"/>
+      <ellipse cx="0" cy="-35" rx="8" ry="30" fill="#f59e0b" transform="rotate(225)"/>
+      <ellipse cx="0" cy="-35" rx="8" ry="30" fill="#f59e0b" transform="rotate(247.5)"/>
+      <ellipse cx="0" cy="-35" rx="8" ry="30" fill="#fbbf24" transform="rotate(270)"/>
+      <ellipse cx="0" cy="-35" rx="8" ry="30" fill="#fbbf24" transform="rotate(292.5)"/>
+      <ellipse cx="0" cy="-35" rx="8" ry="30" fill="#f59e0b" transform="rotate(315)"/>
+      <ellipse cx="0" cy="-35" rx="8" ry="30" fill="#f59e0b" transform="rotate(337.5)"/>
+    </g>
+    <!-- Center -->
+    <circle cx="0" cy="0" r="15" fill="#d97706"/>
+    <circle cx="0" cy="0" r="12" fill="#b45309"/>
+    <circle cx="0" cy="0" r="8" fill="#92400e"/>
+  </g>
+  
+  <!-- Decorative text -->
+  <text x="400" y="260" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#92400e" text-anchor="middle">🌼 Chrysanthemum 菊花 🌼</text>
+</svg>
